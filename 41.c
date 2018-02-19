@@ -13,4 +13,5 @@ for(i=0;i<7;i++)
 {
 printf("%s",b);
 }
+  getch();
 }
