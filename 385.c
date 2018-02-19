@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
   int a,b;
   printf("Enter the two elements:");
@@ -9,5 +9,5 @@ int main()
   b^=a;
   a^=b;
   printf("After swapping %d %d",a,b);
-  return 0;
+  getch();
 }
